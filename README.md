@@ -12,5 +12,8 @@ O objetivo deste repositório é oferecer exercícios para estudantes e desenvol
 - Sobrecarga e sobrescrita de métodos.
 - Estruturação de código seguindo os princípios da OOP.
 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+
 
 
