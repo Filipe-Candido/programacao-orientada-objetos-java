@@ -6,6 +6,16 @@ public class Produto {  //Criando a Classe produto
 	double preco;
 	int quantidade;
 	
+	public Produto (String nome, double preco, int quantidade) { //criando o Construtor
+		 /*Referenciado os atributos com o this e o nome do metodo*/
+		
+		this.nome = nome;
+		this.preco = preco;
+		this.quantidade = quantidade;
+		
+		
+	}
+	
 	
 	/*metodo classe produto*/
 	

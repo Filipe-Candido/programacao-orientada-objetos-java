@@ -11,20 +11,22 @@ public class Main {
 		
 		Scanner scan = new Scanner(System.in); //instaciando classe Scanner
 		
-		Produto produto = new Produto(); // instanciando a variavel Produto do tipo de dado Produto 
+		//Produto produto = new Produto(); // instanciando a variavel Produto do tipo de dado Produto 
 		
 		System.out.println("Entre com os dados do produto:");
 		System.out.println("Nome: ");
-		produto.nome = scan.nextLine();
+		String nome = scan.nextLine();
 		System.out.println("Preço: ");
-		produto.preco = scan.nextDouble();
+		double preco = scan.nextDouble();
 		System.out.println("Quantidade: ");
-		produto.quantidade = scan.nextInt();
+		int quantidade = scan.nextInt();
+		
+		Produto produto = new Produto(nome,preco,quantidade); //informando os dados do produto no moemento da instaciação
 		
 		System.out.println(produto + "\n");
 		
 		System.out.println("Entre com a quantidade de produtos adicionados ao estoque: ");
-		int quantidade = scan.nextInt();
+		quantidade = scan.nextInt();
 		produto.adicionarProduto(quantidade);
 		System.out.println("Atualizado: "+produto+"\n");
 		
